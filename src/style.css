@@ -33,18 +33,18 @@ h1 {
     margin: 10px;
     border-radius: 10px;
     background-origin: 2px 4px 5px rgba(0, 0, 0, 0.3);
-    transition: translateX(200%);
-    transform: transform .4s ease;
+    transform: translateX(300%);
+    transition: transform .4s ease;
 }
 
 .box:nth-of-type(even) {
-    transition: translateX(-200%);
+    transform: translateX(-300%);
 }
 
 .box.show {
-    transform: translate(0);
+    transform: translateX(0);
 }
 
 .box h1 {
-    font-size: 21px;
+    font-size: 22px;
 }
